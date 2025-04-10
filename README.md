@@ -25,7 +25,8 @@ Inputs:
 1) Clock
 2) TX start
 3) Data input
-4) Baud enable
+4) Data length
+5) Baud enable
 
 Outputs:
 1) TX
@@ -33,5 +34,5 @@ Outputs:
 
 ![thumbnail_image](https://github.com/user-attachments/assets/048f75a0-91db-4b56-8333-fce31b304478)
 
-Output of uart_tx will be connected to the input of a LIFO buffer. 
+Output of uart_tx will be connected to the input of a LIFO buffer. Clock enable will be only in Top level.
 
