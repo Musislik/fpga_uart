@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../uart.srcs/sources_1/new/data_seg.vhd" \
+"../../../../uart.srcs/sources_1/new/edge_detector.vhd" \
+"../../../../uart.srcs/sources_1/new/uart_recive.vhd" \
+"../../../../uart.srcs/sources_1/new/uart_rx.vhd" \
+"../../../../uart.srcs/sources_1/new/top_level1.vhd" \
+"../../../../uart.srcs/sources_1/new/edge_transmitter.vhd" \
+"../../../../uart.srcs/sources_1/new/uart_transmitter.vhd" \
+"../../../../uart.srcs/sources_1/new/uart_tx.vhd" \
+"../../../../uart.srcs/sources_1/new/clock_enable_set.vhd" \
+"../../../../uart.srcs/sim_1/new/tb_toplevel1.vhd" \
+
+# Do not sort compile order
+nosort

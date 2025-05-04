@@ -1,0 +1,24 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/appz/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d31ce6f38d2845ce92d540f89e2364d1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cfg_tb_top_level1_behav xil_defaultlib.cfg_tb_top_level1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable_set [clock_enable_set_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_rx [uart_rx_default]
+Compiling architecture behavioral of entity xil_defaultlib.edge_detector [edge_detector_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_reciver [uart_reciver_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_tx [uart_tx_default]
+Compiling architecture behavioral of entity xil_defaultlib.edge_transmitter [edge_transmitter_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_transmitter [uart_transmitter_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_seg [data_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level1 [top_level1_default]
+Compiling architecture tb of entity xil_defaultlib.tb_top_level1 [tb_top_level1]
+Built simulation snapshot cfg_tb_top_level1_behav
