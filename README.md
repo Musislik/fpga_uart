@@ -15,9 +15,19 @@ The project demonstrates a functional UART implementation with room for future i
 ## 🔧 Hardware Description 
 
 - Switches were used for configuration and as data input.
+     - Data length:
+          -00 => 5 bits
+          -00 => 6 bits
+          -00 => 7 bits
+          -00 => 8 bits
+     - Baudrate:
+          -00 => 24 000
+          -00 => 96 000
+          -00 => 57 600
+          -00 => 115 200
 - Output was displayed on a 7-segment display
 
-![20250424_121006](https://github.com/user-attachments/assets/286023f0-34c9-45be-a56e-0d10463e93aa)
+![controls](https://github.com/user-attachments/assets/ec4c29c7-b694-44b6-883b-3b7d96db183e)
 
 ## 💻 Software Description
 
@@ -28,7 +38,8 @@ The project is written in VHDL. The design includes:
 - Clock divider
 - Segment display controller
 
-### UART module testing
+
+### 🧪 UART module testing
 
 ![Top-level schematic](https://github.com/user-attachments/assets/1d76a09e-101a-47b9-8a97-def205739b2e)
 
@@ -46,10 +57,9 @@ The UART module was tested as following:
 4. The received character (**its binary value**) was displayed on the **7-segment display**.
 
 
+### 📥 Receiver
 
-### Receiver
-
-![thumbnail_image](https://github.com/user-attachments/assets/afb98a04-9d87-4f61-b18e-1056e1194ba0)
+![uart_reciver](https://github.com/user-attachments/assets/53da3adb-b958-42ee-9d8a-480e912d4e56)
 
 Inputs:
 1) Clock
@@ -62,9 +72,9 @@ Outputs:
 2) RX done
 
 
-### Transmiter
+### 📤 Transmiter
 
-![thumbnail_image](https://github.com/user-attachments/assets/048f75a0-91db-4b56-8333-fce31b304478)
+![uart_transmiter](https://github.com/user-attachments/assets/7db83e57-cdfd-4f29-9e84-2af82ebcb78b)
 
 Inputs:
 1) Clock
@@ -97,6 +107,7 @@ Due to this limitation and lack of time, the FIFO buffer was not integrated into
 
 FIFO buffer behavior was verified through simulation. Correct operation confirmed for enqueue/dequeue and buffer_empty flag.  
 
+![image](https://github.com/user-attachments/assets/dc5e015f-5f2b-4eee-a6b8-7baf0fb47b1c)
 
 ## ✅ Project Summary
 
