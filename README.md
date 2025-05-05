@@ -16,15 +16,15 @@ The project demonstrates a functional UART implementation with room for future i
 
 - Switches were used for configuration and as data input.
      - Data length:
-          -00 => 5 bits
-          -00 => 6 bits
-          -00 => 7 bits
-          -00 => 8 bits
+          00 => 5 bits,
+          01 => 6 bits,
+          10 => 7 bits,
+          11 => 8 bits
      - Baudrate:
-          -00 => 24 000
-          -00 => 96 000
-          -00 => 57 600
-          -00 => 115 200
+          00 => 24 000,
+          01 => 96 000,
+          10 => 57 600,
+          11 => 115 200
 - Output was displayed on a 7-segment display
 
 ![controls](https://github.com/user-attachments/assets/ec4c29c7-b694-44b6-883b-3b7d96db183e)
