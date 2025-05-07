@@ -37,6 +37,7 @@ The project is written in VHDL. The design includes:
 - Edge detector
 - Clock divider
 - Segment display controller
+- Even parity
 
 
 ### 🧪 UART module testing
