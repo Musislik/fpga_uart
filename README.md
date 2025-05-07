@@ -73,7 +73,6 @@ Outputs:
 
 
 ### 📤 Transmiter
-
 ![uart_transmiter](https://github.com/user-attachments/assets/7db83e57-cdfd-4f29-9e84-2af82ebcb78b)
 
 Inputs:
@@ -101,7 +100,11 @@ Due to this limitation and lack of time, the FIFO buffer was not integrated into
 
 ### UART RX/TX
 
+Receiver simulation
 ![reciver_6bit_115200baud_sekvence](https://github.com/user-attachments/assets/80deb0e9-d045-4833-a6e7-ba74560535d6)
+
+Transmiter simulation
+![transmiter_5bit_115200](https://github.com/user-attachments/assets/7982c294-1b65-4b67-9a51-86029cd605b7)
 
 ### 📦 FIFO Buffer
 
