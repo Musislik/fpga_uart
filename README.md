@@ -130,3 +130,4 @@ The project was **partially completed** — the UART works correctly, but FIFO b
 - UART protocol documentation – [Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 - PuTTY serial terminal – [putty.org](https://www.putty.org/)
 - EDA Playground - [edaplayground.com](https://www.edaplayground.com/)
+- ASCII table - [web.alfredstate.edu](https://web.alfredstate.edu/faculty/weimandn/miscellaneous/ascii/ascii_index.html)
